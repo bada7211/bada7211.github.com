@@ -1,77 +1,59 @@
-Contrast
-========
+# Jekyll Cayman theme
 
-[Demo](http://niklasbuschmann.github.io/contrast)
+This is a [Jekyll][1] theme for [@jasonlong][2]'s [Cayman theme][4] on [GitHub Pages][3].
 
-![screenshot](https://cloud.githubusercontent.com/assets/4943215/9838597/ef499f66-5a61-11e5-8ad0-b2bb71383833.png)
+Cayman is a clean, responsive theme for [GitHub Pages](https://pages.github.com). This theme is available as an option if you use the [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) or you can copy the template and styles to use on your own.
 
+You can preview the theme at http://jasonlong.github.io/cayman-theme or with real content at http://jasonlong.github.io/geo_pattern.
 
-## Features
+![](http://cl.ly/image/1T3r3d18311V/content)
 
- - mobile first
- - syntax highlighting
- - [disqus](https://disqus.com/) / [isso](http://posativ.org/isso/) integration
- - customizable
- - valid HTML5
+# How to use it?
 
-Please note: Create a *master*-branch if you want to use this theme with *.github.io.
+Download the theme @ http://github.com/pietromenna/jekyll-cayman-theme/archive/master.zip
 
-## Getting Started
-
-If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by [Smashing Magazine](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
-
-### Installing Jekyll
-
-If you don't have Jekyll already installed, you will need to go ahead and do that.
+Unzip it and use it as a regular jekyll folder.
 
 ```
-$ gem install jekyll
+$ unzip master.zip
 ```
 
-#### Verify your Jekyll version
-
-It's important to also check your version of Jekyll since this project uses Native Sass which
-is [only supported by 2.0+](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/).
-
+Get inside the newly extracted folder
 ```
-$ jekyll -v
-# This should be jekyll 2.0.0 or later
+$ cd jekyll-cayman-theme
 ```
 
-### Fork, then clone
-
-Fork the repo, and then clone it so you've got the code locally.
-
-### Modify the _config.yml
-
-The `_config.yml` located in the root of the Pixyll directory contains all of the configuration details
-for the Jekyll site.
-
-### Jekyll Serve
-
-Then, start the Jekyll Server. I always like to give the `--watch` option so it updates the generated HTML when I make changes.
-
+Get the required gems
 ```
-$ jekyll serve --watch
+$ bundle install
 ```
 
-Now you can navigate to `localhost:4000` in your browser to see the site.
+Use it!
 
-### Using Github Pages
+```
+$ jekyll serve
+```
 
-You can host your Jekyll site for free with Github Pages. [Click here](https://pages.github.com/) for more information.
+For more details read about [Jekyll][1] on its web page.
 
-## License
+# Setup
 
-This project is licensed under the terms of the MIT license.
+Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file.
 
-## Thanks to the following:
 
-* [Jekyll](http://jekyllrb.com)
-* [Github Pages](https://pages.github.com/)
-* [Richard Leland: pygment](https://github.com/richleland/pygments-css)
-* [mrdoob: three.js](https://github.com/mrdoob/three.js/)
-* [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-* [Paul D. Hunt: Source Sans Pro](https://plus.google.com/108888178732927400671/about)
-* [Victor Gaultney: Gentium Basic](https://profiles.google.com/victorgaultneytype/about)
-* [John Otander: Pixyll](https://github.com/johnotander/pixyll/)
+## baseurl
+
+`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: http://pietromenna.github.io/jekyll-cayman-theme
+
+In the case above the baseurl should be set to "/jekyll-cayman-theme".
+
+In the case the site sits in the root, you can leave `baseurl` as empty "".
+
+# License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/) license.
+
+[1]: http://jekyllrb.com/
+[2]: https://github.com/jasonlong
+[3]: http://pages.github.com/
+[4]: https://github.com/jasonlong/cayman-theme
