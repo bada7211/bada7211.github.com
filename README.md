@@ -1,32 +1,18 @@
-# YAX-Coming-soon-Jekyll-Template
-Free Bootstrap HTML5 CSS3 Responsive Coming soon  Jekyll template
+# Polar Bear
+An open source minimal theme for Jekyll, ideal for blogging.
 
-Designed by : Ilya B.  
-url: https://www.behance.net/gallery/18421675/Free-Bootstrap-Psd-Coming-Soon-Template  
+View the demo at http://diezcami.github.io/polar-bear-theme
 
-Converted PSD to HTML/CSS by:  
-Morteza Aghili  
-bio: http://mortezaaghili.github.io/  
+## Contribute
+Please submit **open issues** for bugs or TBA features that haven't been documented yet! Feel free to submit pull requests for any existing issues.
 
-Adpated to Jekyll by [yonojoy](https://github.com/yonojoy)
+## License
+The MIT License (MIT)
 
-## Usage
-Edit `index.md` to contain your message.
+Copyright (c) 2015 Camille Diez
 
-Edit `_config.yml` and add the following params:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-* `countdown` to contain the target date in GMT/UTC
-* `owner` to contain infos about the site owner.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-That's it.
-
-## Installation
-
-Requires [Jekyll](http://jekyllrb.com/) 3+. 
-
-If you are creating a new Jekyll site using Skinny Bones following these steps:
-
-1. Download and unzip.
-2. Run `bundle install` to install all dependencies 
-3. Update `_config.yml` and `index.md` as described above.
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
