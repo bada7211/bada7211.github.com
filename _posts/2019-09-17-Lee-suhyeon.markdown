@@ -39,7 +39,7 @@ Android, JAVA, xml, Retrofit
 
 * * *
 
-## 개인용 미세먼지 측정기를 이용한 미세먼지 환경지도 및 공기청정기 제작
+## 미세먼지 측정기를 이용한 모니터링 시스템 및 공기청정기 제작
 
 ![](https://raw.githubusercontent.com/bada7211/bada7211.github.com/master/and2.png)
 
