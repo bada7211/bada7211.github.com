@@ -19,9 +19,9 @@ title: "Project portfolio"
 
 ## Data Monitoring Application
 
-### 프로젝트 내용
-
 ![](https://raw.githubusercontent.com/bada7211/bada7211.github.com/master/and1.png)
+
+### 프로젝트 내용
 
 (주)유알시스 - 인턴 기간 동안 진행
 
