@@ -98,7 +98,7 @@ Firebase, Android
 
 ### skill
 
-C , 마이크로프로세서 지식
+C , 마이크로프로세서
 
 
 
