@@ -60,7 +60,7 @@ Android, JAVA, xml, Retrofit
 
 ### skill
 
-Spring Boot, html, css
+Spring Boot, java, html, css
 
 * * *
 
